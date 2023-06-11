@@ -18,7 +18,7 @@ services:
       - key: DB_DATABASE
         value: wscsquashapp_db
       - key: DB_HOST
-        value: dpg-ci307h67avj2t36b3lr0-a
+        value: dpg-ci307h67avj2t36b3lr0-a.oregon-postgres.render.com
       - key: DB_PORT
         value: 5432
 

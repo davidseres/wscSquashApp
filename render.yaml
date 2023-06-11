@@ -25,7 +25,6 @@ services:
 databases:
   - name: wscsquashapp
     databaseName: wscsquashapp_db
-    plan: free
 
 # postgres://wscsquashapp_db_user:QepsybtOpjfC3Pxbl8soELcgXgpZe47q@dpg-ci307h67avj2t36b3lr0-a/wscsquashapp_db
 # postgres://wscsquashapp_db_user:QepsybtOpjfC3Pxbl8soELcgXgpZe47q@dpg-ci307h67avj2t36b3lr0-a.oregon-postgres.render.com/wscsquashapp_db

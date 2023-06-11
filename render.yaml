@@ -11,4 +11,18 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.10.0
-        
+      - key: DB_USER
+        value: postgres
+      - key: DB_PASSWORD
+        value: admin
+      - key: DB_DATABASE
+        value: wscsquashapp
+      - key: DB_HOST
+        value: localhost
+      - key: DB_PORT
+        value: 5432
+
+database:
+  - name: wscsquashapp
+    databaseName: wscsquashapp_db
+    user: postgres

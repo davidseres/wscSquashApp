@@ -2,14 +2,13 @@ import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
-from flask import request, session, g
+from flask import session, g
 import psycopg2
 from psycopg2 import errors
-import datetime
 from layout import registration_layout, main_layout, login_layout, account_layout, admin_layout
-import db.users_db as users_db
-import db.players_db as players_db
-from db.connection import conn
+import src.db.users_db as users_db
+import src.db.players_db as players_db
+from src.db.connection import conn
 from helpers import get_timeslots
 
 

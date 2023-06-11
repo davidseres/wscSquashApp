@@ -25,4 +25,3 @@ services:
 databases:
   - name: wscsquashapp
     databaseName: wscsquashapp_db
-    user: postgres
